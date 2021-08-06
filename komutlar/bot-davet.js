@@ -9,7 +9,7 @@ exports.run = async (client, message, args) => {
 const embed = new Discord.MessageEmbed()
 .setColor("#ffffff")
 .setAuthor(`Evolve Linkler`, client.user.avatarURL())
-.setDescription('**• [Evolve`i Ekleyin.](https://discord.com/oauth2/authorize?client_id=713713727794446397&scope=bot&permissions=8)**\n\n**• [Evolve Oy Ver]()**')
+.setDescription('**• [Evolve`i Ekleyin.](https://discord.com/oauth2/authorize?client_id=793191555817144360&scope=bot&permissions=805314622)**\n\n**• [Evolve Oy Ver]()**')
 .setFooter(`${message.author.username} tarafından istendi!`) 
 .setTimestamp()
 .setThumbnail(client.user.avatarURL())

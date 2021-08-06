@@ -6,7 +6,7 @@ let prefix = await db.fetch(`prefix.${message.guild.id}`) || fynx.prefix
 let eklenti = new Discord.MessageEmbed()  
 .setAuthor(`Evolve Yardım Menüsü`, client.user.avatarURL())
 .setColor('#ffffff')
-.setDescription(`<:a_:821738957997211659>  Evolve botumuzu eklemek için \`${prefix}davet\` yazabilirsiniz.`)  
+.setDescription(`  Evolve botumuzu eklemek için \`${prefix}davet\` yazabilirsiniz.`)  
 .addField(`__Genel Komutlar__`,`  \`${prefix}genel\``,true)
 .addField(`__Mod Komutları__`,`  \`${prefix}moderasyon\` `,true)
 .addField(`__Guard Komutları__`,`  \`${prefix}guard\`  `,true)

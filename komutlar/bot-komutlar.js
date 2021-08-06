@@ -8,7 +8,7 @@ exports.run = async (client, message, args, level) => {
     .setColor("#ffffff")
     .setThumbnail('https://i.ibb.co/s2qGRFx/kod.png')
     .setTimestamp()
-    .setFooter("Lord Creative | Gelişmiş Türkçe Bot | 2020" , client.user.avatarURL())
+    .setFooter("Evolve | Gelişmiş Türkçe Bot | 2020" , client.user.avatarURL())
 
     return message.channel.send(embed);
     

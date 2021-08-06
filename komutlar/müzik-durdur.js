@@ -15,7 +15,7 @@ const hata1 = new Discord.MessageEmbed()
 .setColor(AloneHata) 
 .setTitle("• Hata: 007 •")
 .setThumbnail(`https://drummofficial.com/wp-content/uploads/2017/08/equalizer3.gif`)
-.setDescription(`<:a_:821738957997211659>   | Oynatılan bir müziği durdurabilmek için bir ses kanalında olmanız gerekmektedir!`)
+.setDescription(`   | Oynatılan bir müziği durdurabilmek için bir ses kanalında olmanız gerekmektedir!`)
 .setFooter(`©️ Tüm hakları saklıdır | Yeni Nesil Gelişmiş Bot | 2020`, client.user.avatarURL());  
 if(!message.member.voice.channel) return message.channel.send(hata1)
 
@@ -25,7 +25,7 @@ const hata2 = new Discord.MessageEmbed()
 .setColor(AloneHata) 
 .setTitle("• Hata: 001 •")
 .setThumbnail(`https://drummofficial.com/wp-content/uploads/2017/08/equalizer3.gif`)
-.setDescription(`<:a_:821738957997211659>   | Şu anda hiçbir müzik çalmamaktadır!`)
+.setDescription(`   | Şu anda hiçbir müzik çalmamaktadır!`)
 .setFooter(`©️ Tüm hakları saklıdır | Yeni Nesil Gelişmiş Bot | 2020`, client.user.avatarURL());    
 if(!client.player.isPlaying(message.guild.id)) return message.channel.send(hata2)
 
@@ -33,8 +33,8 @@ if(!client.player.isPlaying(message.guild.id)) return message.channel.send(hata2
   client.player.stop(message.guild.id);
   const embed = new Discord.MessageEmbed()
 .setColor(AloneDogru)
-  .setTitle("Lord Creative | Durdur")
-.setDescription(`<:a_:821738957997211659>   | Müzikler ${message.author} tarafından durduruldu! Lord Creative ses kanalından ayrılıyor.`) 
+  .setTitle("Evolve | Durdur")
+.setDescription(`   | Müzikler ${message.author} tarafından durduruldu! Lord Creative ses kanalından ayrılıyor.`) 
 .setThumbnail(`https://drummofficial.com/wp-content/uploads/2017/08/equalizer3.gif`)
 .setFooter(`©️ Tüm hakları saklıdır | Yeni Nesil Gelişmiş Bot | 2020`, client.user.avatarURL())
 message.channel.send(embed)

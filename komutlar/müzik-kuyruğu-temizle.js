@@ -10,8 +10,8 @@ module.exports.run = async (client, message) => {
   
     const embedd = new Discord.MessageEmbed()
 .setColor(AloneDogru)
-.setTitle("Lord Creative | Kuyruğu Temizle")
-.setDescription(`<:a_:821738957997211659>  **| Müzik Kuyruğu, ${message.author} tarafından temizlendi.**`) 
+.setTitle(" | Kuyruğu Temizle")
+.setDescription(`Evolve  **| Müzik Kuyruğu, ${message.author} tarafından temizlendi.**`) 
 .setThumbnail(`https://drummofficial.com/wp-content/uploads/2017/08/equalizer3.gif`)
 .setFooter(`©️ Tüm hakları saklıdır | Yeni Nesil Gelişmiş Bot | 2020`, client.user.avatarURL());   
   
@@ -23,7 +23,7 @@ const hata1 = new Discord.MessageEmbed()
 .setColor(AloneHata) 
 .setTitle("• Hata: 011 •")
 .setThumbnail(`https://drummofficial.com/wp-content/uploads/2017/08/equalizer3.gif`)
-.setDescription(`<:a_:821738957997211659>   **| Müzik Kuyruğunu temizleyebilmek için bir ses kanalında olmanız gerekmektedir!**`)
+.setDescription(`   **| Müzik Kuyruğunu temizleyebilmek için bir ses kanalında olmanız gerekmektedir!**`)
 .setFooter(`©️ Tüm hakları saklıdır | Yeni Nesil Gelişmiş Bot | 2020`, client.user.avatarURL());  
 if(!message.member.voice.channel) return message.channel.send(hata1)
 
@@ -33,7 +33,7 @@ const hata2 = new Discord.MessageEmbed()
 .setColor(AloneHata) 
 .setTitle("• Hata: 001 •")
 .setThumbnail(`https://drummofficial.com/wp-content/uploads/2017/08/equalizer3.gif`)
-.setDescription(`<:a_:821738957997211659>   **| Şu anda hiçbir müzik çalmamaktadır!**`)
+.setDescription(`   **| Şu anda hiçbir müzik çalmamaktadır!**`)
 .setFooter(`©️ Tüm hakları saklıdır | Yeni Nesil Gelişmiş Bot | 2020`, client.user.avatarURL());    
 if(!client.player.isPlaying(message.guild.id)) return message.channel.send(hata2)
 
